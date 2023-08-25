@@ -1,0 +1,87 @@
+/*!
+Theme Name: iptvsmart
+Theme URI: https://www.linkedin.com/in/muhammad-rizwan-aslam/
+Author: M. Rizwan Aslam
+Author URI: https://www.linkedin.com/in/muhammad-rizwan-aslam/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: iptvsmart
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+a.meanmenu-reveal {
+    margin-top: 25px;
+}
+
+.appsSect p {
+    color: white;
+}
+
+.supported-devices--device-title {
+    font-weight: bold;
+}
+
+.supported-devices--list-item img {
+    width: 72px;
+    height: 72px;
+}
+
+.supported-devices--device-title {
+    color: #fcfcfc;
+    margin: 5px auto;
+    font-weight: 700;
+}
+
+.supported-devices--device-subtitle {
+    font-size: 12px;
+    color: #aeb4bf;
+}
+
+.supported-devices--list-item a {
+    display: block;
+    background: #262a37;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.partner-slides.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+} 
+
+
+#myVideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+}
+
+.hero-content span {
+    position: absolute;
+}
+
+.pakap-responsive-nav nav {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .pakap-responsive-nav nav {
+        display: block;
+    }    
+}
+
+@media screen and (max-width: 900px) {
+    .hero-content span {
+        position: unset;
+    }
+}
